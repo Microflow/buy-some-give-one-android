@@ -10,7 +10,6 @@
 	android:gravity="center_vertical"
 	android:minHeight="48dp"
 	android:paddingBottom="8dp"
-	android:fontFamily="Raleway-Thin"
 	android:paddingLeft="16dp"
 	android:paddingRight="16dp"
 	android:paddingTop="8dp"

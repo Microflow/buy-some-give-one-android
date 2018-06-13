@@ -52,9 +52,9 @@ public final class PostListingHeader extends LinearLayout {
 
 		//setPadding(sidesPadding, topPadding, sidesPadding, topPadding);
 
-		final Typeface tf = Typeface.createFromAsset(context.getAssets(), "fonts/Raleway-Thin.ttf");
+		final Typeface tf = Typeface.createFromAsset(context.getAssets(), "fonts/Roboto-Light.ttf");
 
-		final TextView title = new TextView(context);
+		final TextView title = new TextView(context); //SUBREDDIT TITLE TEXT
 		title.setText(titleText);
 		title.setTextSize(27.0f); //ORIG 22.0f DESIGNCOLORS Sets size of subreddit name text
 		title.setTypeface(tf);
@@ -63,7 +63,7 @@ public final class PostListingHeader extends LinearLayout {
 		title.setTextColor(Color.BLACK); // DESIGNCOLORS Sets the color of the Subreddit title text.
 		addView(title);
 
-		final TextView subtitle = new TextView(context);
+		final TextView subtitle = new TextView(context); //SUBREDDIT SUBSCRIBERS
 		subtitle.setTextSize(19.0f);
 		subtitle.setText(subtitleText);
 		subtitle.setGravity(Gravity.CENTER);

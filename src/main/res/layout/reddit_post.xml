@@ -73,6 +73,7 @@
 				android:layout_weight="1">
 
 			<!-- todo theme color -->
+			<!-- Name of article -->
 			<TextView
 					android:id="@+id/reddit_post_title"
 					android:layout_width="match_parent"
@@ -86,6 +87,7 @@
 					android:textSize="25sp"/> <!--ORIG 21sp-->
 
 			<!-- todo theme color -->
+			<!-- Time posted and article url -->
 			<TextView
 					android:id="@+id/reddit_post_subtitle"
 					android:layout_width="match_parent"
