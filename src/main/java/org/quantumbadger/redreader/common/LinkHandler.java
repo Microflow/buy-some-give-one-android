@@ -238,10 +238,11 @@ public class LinkHandler {
 			}
 		}
 
-		final Intent intent = new Intent(activity, WebViewActivity.class);
-		intent.putExtra("url", url);
-		intent.putExtra("post", post);
-		activity.startActivity(intent);
+		openWebBrowser(activity, Uri.parse(youtuBeUrl), fromExternalIntent);
+//		final Intent intent = new Intent(activity, WebViewActivity.class);
+//		intent.putExtra("url", url);
+//		intent.putExtra("post", post);
+//		activity.startActivity(intent);
 	}
 
 	public static void onLinkLongClicked(AppCompatActivity activity, String uri){
