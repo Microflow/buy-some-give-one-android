@@ -453,7 +453,7 @@ public final class RedditPreparedPost {
 				break;
 			}
 
-//			case SHARE_IMAGE: {
+//		gradle	case SHARE_IMAGE: {
 //
 //				((BaseActivity)activity).requestPermissionWithCallback(Manifest.permission.WRITE_EXTERNAL_STORAGE, new ShareImageCallback(activity, post.src.getUrl()));
 //
