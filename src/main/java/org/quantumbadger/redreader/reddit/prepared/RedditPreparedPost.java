@@ -413,11 +413,11 @@ public final class RedditPreparedPost {
 				break;
 			}
 
-			case SAVE_IMAGE: {
-
-				((BaseActivity)activity).requestPermissionWithCallback(Manifest.permission.WRITE_EXTERNAL_STORAGE, new SaveImageCallback(activity, post.src.getUrl()));
-				break;
-			}
+//			case SAVE_IMAGE: {
+//
+//				((BaseActivity)activity).requestPermissionWithCallback(Manifest.permission.WRITE_EXTERNAL_STORAGE, new SaveImageCallback(activity, post.src.getUrl()));
+//				break;
+//			}
 
 			case SHARE: {
 
@@ -453,12 +453,12 @@ public final class RedditPreparedPost {
 				break;
 			}
 
-			case SHARE_IMAGE: {
-
-				((BaseActivity)activity).requestPermissionWithCallback(Manifest.permission.WRITE_EXTERNAL_STORAGE, new ShareImageCallback(activity, post.src.getUrl()));
-
-				break;
-			}
+//			case SHARE_IMAGE: {
+//
+//				((BaseActivity)activity).requestPermissionWithCallback(Manifest.permission.WRITE_EXTERNAL_STORAGE, new ShareImageCallback(activity, post.src.getUrl()));
+//
+//				break;
+//			}
 
 			case COPY: {
 
