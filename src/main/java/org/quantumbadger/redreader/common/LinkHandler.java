@@ -322,12 +322,12 @@ public class LinkHandler {
 					General.quickToast(activity, R.string.error_no_suitable_apps_available);
 				}
 				break;
-			case SHARE_IMAGE:
-				((BaseActivity)activity).requestPermissionWithCallback(Manifest.permission.WRITE_EXTERNAL_STORAGE, new ShareImageCallback(activity, uri));
-				break;
-			case SAVE_IMAGE:
-				((BaseActivity)activity).requestPermissionWithCallback(Manifest.permission.WRITE_EXTERNAL_STORAGE, new SaveImageCallback(activity, uri));
-				break;
+//			case SHARE_IMAGE:
+//				((BaseActivity)activity).requestPermissionWithCallback(Manifest.permission.WRITE_EXTERNAL_STORAGE, new ShareImageCallback(activity, uri));
+//				break;
+//			case SAVE_IMAGE:
+//				((BaseActivity)activity).requestPermissionWithCallback(Manifest.permission.WRITE_EXTERNAL_STORAGE, new SaveImageCallback(activity, uri));
+//				break;
 		}
 	}
 	public static boolean openWebBrowser(AppCompatActivity activity, Uri uri, final boolean fromExternalIntent) {
