@@ -467,7 +467,7 @@
     <string name="action_search">Search</string>
     <string name="search_subreddit_restrict">Restrict search to</string>
 
-    <string name="title_changelog">What\'s New</string>
+    <string name="title_changelog">¯\\_(ツ)_/¯</string>
 
     <string name="pref_behaviour_commentsort_key" translatable="false">pref_behaviour_commentsort</string>
     <string name="pref_behaviour_commentsort">Default Comment Sort</string>
@@ -724,7 +724,7 @@
     <string name="pref_cache_precache_comments_wifionly_key" translatable="false">pref_cache_precache_comments_wifionly</string>
     <string name="pref_cache_precache_comments_wifionly_title">On Wi-Fi only</string>
 
-    <string name="mainmenu_header_subreddits_subscribed">Whats New</string>
+    <string name="mainmenu_header_subreddits_subscribed">¯\\_(ツ)_/¯</string>
     <string name="mainmenu_header_subreddits_pinned">Pinned Subreddits</string>
 
     <string name="pin_subreddit">Pin to Main Menu</string>
