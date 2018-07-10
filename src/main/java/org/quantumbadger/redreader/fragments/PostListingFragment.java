@@ -487,7 +487,6 @@ public class PostListingFragment extends RRFragment
 	}
 
 	public void onSubscribe() {
-
 		if(mPostListingURL.pathType() != RedditURLParser.SUBREDDIT_POST_LISTING_URL) return;
 
 		try {
