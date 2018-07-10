@@ -238,7 +238,7 @@ public class LinkHandler {
 			}
 		}
 
-		openWebBrowser(activity, Uri.parse(youtuBeUrl), fromExternalIntent);
+		openWebBrowser(activity, Uri.parse(url), fromExternalIntent);
 //		final Intent intent = new Intent(activity, WebViewActivity.class);
 //		intent.putExtra("url", url);
 //		intent.putExtra("post", post);
