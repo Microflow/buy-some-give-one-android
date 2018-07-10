@@ -30,7 +30,7 @@ dependencies {
     implementation 'info.guardianproject.netcipher:netcipher:1.2.1'
 
     testImplementation 'junit:junit:4.12'
-    compile('com.crashlytics.sdk.android:crashlytics:2.9.4@aar') {
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.4@aar') {
         transitive = true;
     }
 }
