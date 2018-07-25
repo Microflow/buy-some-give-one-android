@@ -12,6 +12,8 @@ Forward is an open source Android app that will promote:
 
 Users will log on and see interesting projects and products as they scroll.
 
+![Imgur Image](http://i.imgur.com/hbAX4BH.jpg)
+
 # Our Ticket System
 
 We use github issues to write tickets. Tickets are called Feature, or Design. If you see one that looks interesting, you are welcome to click it and try to write the code. Right now we are fixing the design. The fonts + colors are uninspiring. THat needs to change.
