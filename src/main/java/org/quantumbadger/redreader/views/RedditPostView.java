@@ -46,7 +46,7 @@ public final class RedditPostView extends FlingableItemView implements RedditPre
 	private final float dpScale;
 
 	private RedditPreparedPost post = null;
-	private final TextView title, subtitle;
+	private final TextView title;
 
 	private final ImageView thumbnailView, overlayIcon;
 
@@ -222,10 +222,10 @@ public final class RedditPostView extends FlingableItemView implements RedditPre
 		overlayIcon = (ImageView) rootView.findViewById(R.id.reddit_post_overlay_icon);
 
 		title = (TextView) rootView.findViewById(R.id.reddit_post_title);
-		subtitle = (TextView) rootView.findViewById(R.id.reddit_post_subtitle);
+//		subtitle = (TextView) rootView.findViewById(R.id.reddit_post_subtitle);
 
 		title.setTextSize(TypedValue.COMPLEX_UNIT_PX, title.getTextSize() * fontScale);
-		subtitle.setTextSize(TypedValue.COMPLEX_UNIT_PX, subtitle.getTextSize() * fontScale);
+//		subtitle.setTextSize(TypedValue.COMPLEX_UNIT_PX, subtitle.getTextSize() * fontScale);
 
 		final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
 		mLeftFlingPref = PrefsUtility.pref_behaviour_fling_post_left(context, sharedPreferences);
@@ -295,7 +295,7 @@ public final class RedditPostView extends FlingableItemView implements RedditPre
 			title.setTextColor(rrPostTitleCol);
 		}
 
-		subtitle.setText(post.postListDescription);
+//		subtitle.setText(post.postListDescription);
 
 		boolean overlayVisible = true;
 

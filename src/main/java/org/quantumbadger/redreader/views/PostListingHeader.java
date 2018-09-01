@@ -30,7 +30,7 @@ import org.quantumbadger.redreader.common.General;
 
 public final class PostListingHeader extends LinearLayout {
 
-	public PostListingHeader(final Context context, final String titleText, final String subtitleText) {
+	public PostListingHeader(final Context context, final String titleText) {
 
 		super(context);
 
@@ -56,20 +56,22 @@ public final class PostListingHeader extends LinearLayout {
 
 		final TextView title = new TextView(context); //SUBREDDIT TITLE TEXT
 		title.setText(titleText);
-		title.setTextSize(27.0f); //ORIG 22.0f DESIGNCOLORS Sets size of subreddit name text
+		title.setTextSize(37.0f); //ORIG 22.0f DESIGNCOLORS Sets size of subreddit name text
 		title.setTypeface(tf);
+		title.setPadding(20,20,20,20);
 		title.setGravity(Gravity.CENTER);
 		title.setBackgroundColor(Color.WHITE);
 		title.setTextColor(Color.BLACK); // DESIGNCOLORS Sets the color of the Subreddit title text.
 		addView(title);
 
-		final TextView subtitle = new TextView(context); //SUBREDDIT SUBSCRIBERS
-		subtitle.setTextSize(19.0f);
-		subtitle.setText(subtitleText);
-		subtitle.setGravity(Gravity.CENTER);
-		subtitle.setBackgroundColor(Color.rgb(255, 255, 255));
-		subtitle.setTypeface(tf);
-		subtitle.setTextColor(Color.rgb(10, 10, 10));
-		addView(subtitle);
+//		final TextView subtitle = new TextView(context); //SUBREDDIT SUBSCRIBERS
+//		subtitle.setTextSize(25.0f);
+//		subtitle.setText(subtitleText);
+//		subtitle.setGravity(Gravity.CENTER);
+//		subtitle.setBackgroundColor(Color.rgb(255, 255, 255));
+//		subtitle.setPadding(40, 40, 40, 40);
+//		subtitle.setTypeface(tf);
+//		subtitle.setTextColor(Color.rgb(10, 10, 10));
+//		addView(subtitle);
 	}
 }

@@ -394,7 +394,7 @@ public class PostListingFragment extends RRFragment
 	}
 
 	private void setHeader(final String title, final String subtitle) {
-        final PostListingHeader postListingHeader = new PostListingHeader(getActivity(), title, subtitle);
+        final PostListingHeader postListingHeader = new PostListingHeader(getActivity(), title);
         setHeader(postListingHeader);
 	}
 

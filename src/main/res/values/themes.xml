@@ -56,14 +56,14 @@
         <!-- Post -->
 
         <item name="rrPostTitleCol">#DDDDDD</item>
-        <item name="rrPostTitleReadCol">#909090</item>
+        <item name="rrPostTitleReadCol">#222222</item>
         <item name="rrPostSubtitleCol">#909090</item>
         <item name="rrPostSubtitleBoldCol">#BBBBBB</item>
         <item name="rrPostSubtitleUpvoteCol">#FF9B76</item>
         <item name="rrPostSubtitleDownvoteCol">#9494FF</item>
         <item name="rrPostCommentsButtonBackCol">#444444</item>
         <item name="rrPostCommentsButtonHighlightCol">#777777</item>
-        <item name="rrPostCommentsButtonTextCol">#BBBBBB</item>
+        <item name="rrPostCommentsButtonTextCol">#FFFFFF</item>
         <item name="rrPostThumbnailBackground">#FFFFFF</item>
         <item name="rrPostFlingTextCol">#FFFFFF</item>
         <item name="rrFlairBackCol">#333333</item>
@@ -113,9 +113,9 @@
 		<item name="colorPrimaryDark">#000000</item>
 		<item name="colorAccent">#99DDDD</item>
 
-		<item name="rrPostListHeaderBackgroundCol">#444444</item>
+		<item name="rrPostListHeaderBackgroundCol">#FFFFFF</item>
 
-		<item name="rrMainTextCol">#999999</item>
+		<item name="rrMainTextCol">#FFFFFF</item>
 		<item name="rrSubTextCol">#777777</item>
 
 		<item name="android:windowBackground">@color/darkWindowBackground</item>
@@ -352,9 +352,8 @@
     </style>
 
     <style name="RR.Light.Red" parent="RR.Light.DarkActionBar">
-        <item name="colorPrimary">#008080</item> <!--Default theme loads here. DESIGNCOLORS -(We use the DESIGNCOLORS tag to help us locate key design lines easily -->
-        <item name="colorPrimaryDark">#006060</item>
-    </style>
+        <item name="colorPrimary">#000044</item> <!--Default theme loads here. DESIGNCOLORS -(We use the DESIGNCOLORS tag to help us locate key design lines easily -->
+        <item name="colorPrimaryDark">#000033</item></style>
 
     <style name="RR.Light.Green" parent="RR.Light.DarkActionBar">
         <item name="colorPrimary">#002c00</item>

@@ -86,7 +86,7 @@ public final class General {
 	public static Typeface getMonoTypeface(Context context) {
 
 		if(monoTypeface == null) {
-			monoTypeface = Typeface.createFromAsset(context.getAssets(), "fonts/VeraMono.ttf");
+			monoTypeface = Typeface.createFromAsset(context.getAssets(), "fonts/Roboto-Light.ttf");
 		}
 
 		return monoTypeface;

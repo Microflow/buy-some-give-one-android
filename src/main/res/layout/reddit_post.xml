@@ -58,7 +58,7 @@
 					android:layout_height="match_parent"
 					android:scaleType="center"
 					android:visibility="gone"
-					android:background="#99000000"/>
+					android:background="#FFFFFFFF"/>
 
 		</FrameLayout>
 
@@ -81,13 +81,13 @@
 					android:gravity="center"
 					android:textColor="?rrPostTitleCol"
 					android:paddingLeft="10dp"
-					android:paddingRight="5dp"
-					android:paddingTop="5dp"
-					android:paddingBottom="0dp"
-					android:textSize="25sp"/> <!--ORIG 21sp-->
+					android:paddingRight="10dp"
+					android:paddingTop="27dp"
+					android:paddingBottom="7dp"
+					android:textSize="28sp"/> <!--ORIG 21sp-->
 
 			<!-- todo theme color -->
-			<!-- Time posted and article url -->
+			 Time posted and article url
 			<TextView
 					android:id="@+id/reddit_post_subtitle"
 					android:layout_width="match_parent"
