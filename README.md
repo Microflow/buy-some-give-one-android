@@ -3,12 +3,7 @@ fforward (for Android)
 
 Hey!
 
-Forward is an open source Android app that will promote:
-
-- Restaurants that donate money and food to charities. One meal sold = one meal donated.
-- Shops that donate clothes to the homeless. Sell one hat = donate one hat to the homeless.
-- Groups that clean up trash at the weekends.
-- Local innovators: Farming pioneers, micro-energy, water filtration etc...
+fforward is an open source Android app that will help people micro-crowdfund. $1- to $100 is our domain.
 
 Users will log on and see interesting projects and products as they scroll.
 
