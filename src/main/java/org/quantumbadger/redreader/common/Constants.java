@@ -52,9 +52,10 @@ public final class Constants {
 	public static final class Reddit {
 
 		public static final String[] DEFAULT_SUBREDDITS = {
-				"/r/fforwardEarth",
-				"/r/fforwardTaiwan",
-				"/r/fforwardIndia"
+				"/r/MicrofundingEarth",
+				"/r/TaipeiCrowdfunding",
+				"/r/MicrofundingSuccess",
+				"/r/MicrofundingIdeas"
              // Earth and India not populated yet.
 			//	"/r/Art",
 			//	"/r/aww",
