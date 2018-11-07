@@ -67,8 +67,8 @@ public class RedditAPIIndividualSubredditListRequester
 
 			final HashSet<String> data = new HashSet<>(Constants.Reddit.DEFAULT_SUBREDDITS.length + 1);
 
-			for(String name : Constants.Reddit.DEFAULT_SUBREDDITS) {
-				data.add(General.asciiLowercase(name));
+			for(String[] item: Constants.Reddit.DEFAULT_SUBREDDITS) {
+				data.add(General.asciiLowercase(item[0]));
 			}
 
 			//data.add("/r/redreader");

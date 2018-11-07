@@ -22,6 +22,7 @@ import android.content.pm.PackageManager;
 
 import org.quantumbadger.redreader.RedReader;
 
+import java.lang.reflect.Array;
 import java.net.URI;
 
 public final class Constants {
@@ -51,11 +52,11 @@ public final class Constants {
 
 	public static final class Reddit {
 
-		public static final String[] DEFAULT_SUBREDDITS = {
-				"/r/MicrofundingEarth",
-				"/r/TaipeiCrowdfunding",
-				"/r/MicrofundingSuccess",
-				"/r/MicrofundingIdeas"
+		public static final String[][] DEFAULT_SUBREDDITS = {
+				new String[] { "/r/MicrofundingEarth", "New ideas for Earth" },
+				new String [] { "/r/TaipeiCrowdfunding", "New ideas for Crowd Funding" },
+				new String [] { "/r/MicrofundingSuccess", "New ideas for Success" },
+				new String [] { "/r/MicrofundingIdeas", "New ideas for Earth"}
              // Earth and India not populated yet.
 			//	"/r/Art",
 			//	"/r/aww",

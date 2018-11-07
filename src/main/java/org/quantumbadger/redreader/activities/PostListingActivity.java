@@ -24,12 +24,14 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import org.quantumbadger.redreader.R;
 import org.quantumbadger.redreader.account.RedditAccount;
 import org.quantumbadger.redreader.account.RedditAccountChangeListener;
 import org.quantumbadger.redreader.account.RedditAccountManager;
+import org.quantumbadger.redreader.common.Constants;
 import org.quantumbadger.redreader.common.DialogUtils;
 import org.quantumbadger.redreader.common.General;
 import org.quantumbadger.redreader.common.LinkHandler;
@@ -105,7 +107,16 @@ public class PostListingActivity extends RefreshableActivity
 				}
 			}
 
-			setTitle(url.humanReadableName(this, false));
+//			setTitle(url.humanReadableName(this, false));
+
+			String[][] arr = Constants.Reddit.DEFAULT_SUBREDDITS;
+			for(int i = 0; i < arr.length; i++){
+				if(arr[i][0].toLowerCase().equalsIgnoreCase(url.humanReadableName(this, false))){
+					setTitle(arr[i][1]);
+				}
+			}
+
+
 
 			setBaseActivityContentView(R.layout.main_single);
 			doRefresh(RefreshableFragment.POSTS, false, fragmentSavedInstanceState);

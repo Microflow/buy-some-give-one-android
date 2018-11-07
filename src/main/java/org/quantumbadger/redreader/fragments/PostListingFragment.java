@@ -146,6 +146,7 @@ public class PostListingFragment extends RRFragment
 
 		try {
 			mPostListingURL = (PostListingURL) RedditURLParser.parseProbablePostListing(url);
+
 		} catch(ClassCastException e) {
 			Toast.makeText(getActivity(), "Invalid post listing URL.", Toast.LENGTH_LONG).show();
 			// TODO proper error handling -- show error view

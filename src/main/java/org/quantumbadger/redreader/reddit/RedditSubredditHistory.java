@@ -36,9 +36,9 @@ public class RedditSubredditHistory
 		}
 		HashSet<String> personalizedSubreddits = SUBREDDITS.get(account);
 		if (personalizedSubreddits.isEmpty()) {
-			for (final String subreddit : Constants.Reddit.DEFAULT_SUBREDDITS) {
+			for (final String[] subreddit : Constants.Reddit.DEFAULT_SUBREDDITS) {
 				try {
-					personalizedSubreddits.add(General.asciiLowercase(RedditSubreddit.stripRPrefix(subreddit)));
+					personalizedSubreddits.add(General.asciiLowercase(RedditSubreddit.stripRPrefix(subreddit[0])));
 				} catch (final RedditSubreddit.InvalidSubredditNameException e) {
 					throw new RuntimeException(e);
 				}
