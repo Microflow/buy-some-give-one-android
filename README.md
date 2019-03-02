@@ -3,7 +3,7 @@ Mykra (for Android)
 
 Hey!
 
-Mykra is an open source Android app that will help people micro-crowdfund. $1- to $333 is our domain.
+Mykra is an open source Android app that will help people micro-crowdfund. $1 to $333 is our domain. Mykra is focused on Water filtration, hydroponic gardens, organic farms, socially useful apps, fun + educational meetups. 
 
 Users will log on and see interesting projects and products as they scroll.
 
