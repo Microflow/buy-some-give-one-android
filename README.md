@@ -1,9 +1,9 @@
-fforward (for Android)
+Mykra (for Android)
 =======================
 
 Hey!
 
-fforward is an open source Android app that will help people micro-crowdfund. $1- to $100 is our domain.
+Mykra is an open source Android app that will help people micro-crowdfund. $1- to $333 is our domain.
 
 Users will log on and see interesting projects and products as they scroll.
 
@@ -17,7 +17,7 @@ We use github issues to write tickets. Tickets are called Feature, or Design. If
 
 
 
-# fforward Back-End
+# Mykra Back-End
 
 We have forked RedReader, an open source client for Reddit. Running on the Reddit API allows us to validate fforward for free. We will simplify and change Reddits design until it looks different from the standard Reddit UI. We use Reddit to serve a JSON feed for the prototype. Users do not need to have a Reddit account to use fforward.
 
